@@ -13,10 +13,15 @@ body {
     padding: 15px 35px;
 }
 
+header {
+    background: #FFF8F3;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav>ul {
@@ -44,4 +49,14 @@ nav li a {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner .profile-pic {
+    width: 500px;   
 }
