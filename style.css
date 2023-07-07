@@ -89,6 +89,16 @@ nav li a {
     margin-bottom: 20px;
     margin-top: 0;
 }
+/* Main Section*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+main section {
+    margin-top: 130px;
+}
 
 /*About Section */
 .about {
@@ -97,3 +107,51 @@ nav li a {
     background-color: #FFF8F3;
     margin: 130px 0;
 }
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    font-weight: 100;
+
+}
+
+.info-description {
+    font-weight: bold;
+}
+
+/* What I do */
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    gap: 40px;
+    box-shadow: 0px 6px 50px 0px #928e8e;
+    border-radius: 5px;
+    background-color: #FFF;
+    
+}
+
+.skill-description{
+    color: #757575;
+}
+
+
+
