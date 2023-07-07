@@ -1,7 +1,7 @@
 /*Shared common style*/
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0 200px;
+    
 }
 
 .btn-primary {
@@ -30,9 +30,9 @@ body {
 
 header {
     background: #FFF8F3;
-    background-image: url('Image/header_bg.png');
+    background-image: url('Image/header_bg.png'), url('Image/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 nav {
@@ -76,7 +76,8 @@ nav li a {
     justify-content: space-around;
 }
 .banner .profile-pic {
-    width: 500px;   
+    width: 500px; 
+    margin-right: 0;  
 }
 .banner-greeting {
     font-size: 45px;
